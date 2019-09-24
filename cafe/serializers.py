@@ -37,4 +37,3 @@ class Review_UnlikeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review_Unlike
         fields = ('id', 'review')
-
